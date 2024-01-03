@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    background-color: #00000066;
+    height: 4vw;
+}
+
+.logo__img{
+    height: 4vh;
+    top: 1.5vh;
+    left: 1vw;
+    position: absolute;
+}
+
+.child__div{
+    position: relative;
+}
+
+.menu__a{
+    top: 3vh;
+    left: 28vw;
+    position: absolute;
+    display: flex;
+}
+
+.menu__a a{
+    margin: 0 3vh;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__a :first-child{
+    margin: 0 3vh 0 0;
+    color: white;
+}
+
+.menu__a :last-child{
+    margin: 0 0 0 3vh;
+    color: white;
+}
+
+.button{
+    position: absolute;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    top: 2.5vh;
+    left: 90vw;
+    padding: 5px;
+}
+
+.main__img{
+   width: 100%;
+}
+
+
+.main__div{
+    position: absolute;
+    top: 30vh;
+    left: 7vw;
+}
+
+.welcome-text__div{ 
+    color: white;
+    font-size: 44px;
+}
+
+#text-in_text__div{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+
+.button__more{
+    position: absolute;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    top: 37vh;
+    left: 0vw;
+    padding: 0px 60px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.contact-us__button{
+    position: absolute;
+    background: #06B25F;
+    color: white;
+    border: 1px solid #06B25F;
+    border-radius: 5px;
+    top: 37vh;
+    left: 12.5vw;
+    padding: 0px 35px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.circles__div{
+    position: absolute;
+    top: 45vh;
+}
+
+.main-content__div{
+    margin-bottom: 10vh;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MAIN-CONTENT0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+.additional-content__div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.techno-text__h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #194484;
+}
+
+.techno-text__div{
+    margin-bottom: 30vh;
+    top: 12vh;
+    position: absolute;
+    text-align: center;
+}
+
+.techno-text__p{
+    color: var(--Dark-Grey, #242424);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}   
+
+.stan-text__span{
+    color: #00A4E8;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 158.333% */
+}
+
+.assets-text_span{
+    color: var(--Bark-Blue, #194484);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.logos__div{
+    top: 30vh;
+    position: absolute;
+}
+
+.logos__div img{
+    margin: 0 1.5vw ;
+}
